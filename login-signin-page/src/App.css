@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(135deg, #fffbd1 25%, #ffeb99 25%, #ffeb99 50%, #fffbd1 50%, #fffbd1 75%, #ffeb99 75%, #ffeb99 100%);
+  background-size: 56.57px 56.57px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #ffcc66;
+}
+
+.nav-left a, .nav-right {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.home, .about-me {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home img, .about-me img {
+  width: 100px;
+  height: 100px;
+}
